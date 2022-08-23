@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Player</title>
+    <!-- Fonte Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <!-- Fim Fonte Google -->
+        <link rel="stylesheet" href="./src/CSS/MPstyles.css">
+    <!--FAVICON-->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./src/Imagens/Favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./src/Imagens/Favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./src/Imagens/Favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./src/Imagens/Favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./src/Imagens/Favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./src/Imagens/Favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./src/Imagens/Favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./src/Imagens/Favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="./src/Imagens/Favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="./src/Imagens/Favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="./src/Imagens/Favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./src/Imagens/Favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="./src/Imagens/Favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="./src/Imagens/Favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="./src/Imagens/Favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="./src/Imagens/Favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="./src/Imagens/Favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="./src/Imagens/Favicon/mstile-310x310.png" />
+</head>
+<body>
+    <main>
+        <div class="bloco-principal">
+            <div class="botoes">
+                <div class="nao">
+                    <button type="button" class="botao negativo">N&Atilde;O</button>
+                </div>
+                <div class="sim">
+                    <button type="button" class="botao afirmativo">SIM</button>
+                </div>
+            </div>
+            <div class="grid-stats" onmouseover="abrirStats()" onmouseleave="fecharStats()">
+                <div class="statInf renda">
+                    <div class=" barra-renda"></div>
+                </div>
+                <div class="statInf investidor">
+                    <div class=" barra-investidor"></div>
+                </div>
+                <div class="statInf cliente">
+                    <div class=" barra-cliente"></div>
+                </div>
+                <div class="statInf funcionario">
+                    <div class=" barra-funcionario"></div>
+                </div>
+                <div class="statInf popularidade">
+                    <div class=" barra-popularidade"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <div class="stats-detalhado">
+            <div class="statLat renda"></div>
+            <div class="statLat investidor"></div>
+            <div class="statLat cliente"></div>
+            <div class="statLat funcionario"></div>
+            <div class="statLat popularidade"></div>
+        </div>
+    </aside>
+    <script src="./src/JS/MPscript.js"></script>
+    <script src="./src/JS/BarraStats.js"></script>
+    </body>
+</html>
